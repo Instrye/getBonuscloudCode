@@ -9,13 +9,11 @@ class bon
     private $ocr;
     
     private $rh;
-    private $ch;
 
     public function __construct($user, $pass, $bceAppid, $apiKey, $secretKey)
     {
         $this->user = $user;
         $this->pass = $pass;
-        $this->rh = curl_init();
         $this->rh = curl_init();
         $this->ocr = new AipOcr($bceAppid, $apiKey, $secretKey);
         if($this->testOcr())
