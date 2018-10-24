@@ -1,0 +1,8 @@
+<?php
+return [
+    'email' => 'youer_mail',
+    'password' => 'youer_password',
+    'appid' => 'appid',
+    'apiKey' => 'apikey',
+    'secretKey' => 'secretKey',
+];
